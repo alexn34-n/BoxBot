@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="Initial Init">
-      <change afterPath="$PROJECT_DIR$/common-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-rabbitmq/src/main/java/ru/alexn/model/RabbitQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/controller/UpdateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/service/AnswerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/service/UpdateProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/service/impl/UpdateProducerImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/utils/MessageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="Add Controller and Service">
+      <change afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/configuration/RabbitConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dispatcher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/controller/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/controller/TelegramBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/service/impl/UpdateProducerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/alexn/service/impl/UpdateProducerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dispatcher/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,9 @@
       <workItem from="1666266615984" duration="3310000" />
       <workItem from="1666285198822" duration="2099000" />
       <workItem from="1666338580046" duration="2934000" />
-      <workItem from="1666346055596" duration="7699000" />
+      <workItem from="1666346055596" duration="7791000" />
+      <workItem from="1666359074437" duration="1746000" />
+      <workItem from="1666362750891" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Init">
       <created>1666287461517</created>
@@ -104,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666287461517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Controller and Service">
+      <created>1666354247031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666354247031</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Init" />
+    <MESSAGE value="Add Controller and Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Controller and Service" />
   </component>
 </project>
