@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="correct bags and write test">
-      <change afterPath="$PROJECT_DIR$/common-jpa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/enums/UserState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add module common-jpa">
+      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/ServiceCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/ConsumerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +21,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -62,7 +58,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ed1b427e7700ba2478264b769293a1e1&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e9c25cfd7c981981ad416dd4fb1f9d22&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -148,7 +144,11 @@
       <workItem from="1666519489845" duration="800000" />
       <workItem from="1666524088073" duration="3187000" />
       <workItem from="1667149598956" duration="801000" />
-      <workItem from="1667196996160" duration="3088000" />
+      <workItem from="1667196996160" duration="3411000" />
+      <workItem from="1667378970191" duration="40000" />
+      <workItem from="1667651354071" duration="5047000" />
+      <workItem from="1667656456545" duration="525000" />
+      <workItem from="1667658572834" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Init">
       <created>1666287461517</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666527250668</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add module common-jpa">
+      <created>1667200140482</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667200140482</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +224,7 @@
     <MESSAGE value="add module Node" />
     <MESSAGE value="Connect to PostgreSQL" />
     <MESSAGE value="correct bags and write test" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct bags and write test" />
+    <MESSAGE value="add module common-jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module common-jpa" />
   </component>
 </project>
