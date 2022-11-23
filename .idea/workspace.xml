@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add module common-jpa">
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/ServiceCommands.java" afterDir="false" />
+    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add processing of text commands from the chat">
+      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppDocumentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/BinaryContentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/BinaryContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/exceptions/UploadFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/ConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/ServiceCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/ServiceCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,7 +156,9 @@
       <workItem from="1667378970191" duration="40000" />
       <workItem from="1667651354071" duration="5047000" />
       <workItem from="1667656456545" duration="525000" />
-      <workItem from="1667658572834" duration="1047000" />
+      <workItem from="1667658572834" duration="1152000" />
+      <workItem from="1667720803909" duration="1583000" />
+      <workItem from="1669213796322" duration="2890000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Init">
       <created>1666287461517</created>
@@ -199,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667200140482</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add processing of text commands from the chat">
+      <created>1667659688169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667659688169</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +242,7 @@
     <MESSAGE value="Connect to PostgreSQL" />
     <MESSAGE value="correct bags and write test" />
     <MESSAGE value="add module common-jpa" />
-    <option name="LAST_COMMIT_MESSAGE" value="add module common-jpa" />
+    <MESSAGE value="add processing of text commands from the chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add processing of text commands from the chat" />
   </component>
 </project>
