@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add processing of text commands from the chat">
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppDocumentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/BinaryContentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/BinaryContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/exceptions/UploadFileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
+    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add token-methods">
+      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppPhotoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppPhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/ServiceCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/ServiceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/BinaryContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/BinaryContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +58,14 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/alexn/Документы/BoxBot/node/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e9c25cfd7c981981ad416dd4fb1f9d22&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;09540b33f5a5f4eda229eec75aca91bd&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -86,6 +85,8 @@
       <recent name="ru.alexn.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.alexn.dao" />
+      <recent name="ru.alexn.entity" />
       <recent name="ru.alexn.configuration" />
       <recent name="ru.alexn" />
     </key>
@@ -158,7 +159,11 @@
       <workItem from="1667656456545" duration="525000" />
       <workItem from="1667658572834" duration="1152000" />
       <workItem from="1667720803909" duration="1583000" />
-      <workItem from="1669213796322" duration="2890000" />
+      <workItem from="1669213796322" duration="2993000" />
+      <workItem from="1669390128814" duration="134000" />
+      <workItem from="1670256323114" duration="984000" />
+      <workItem from="1670317972325" duration="217000" />
+      <workItem from="1670343400830" duration="1333000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Init">
       <created>1666287461517</created>
@@ -216,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667659688169</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add token-methods">
+      <created>1669216751437</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669216751438</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +255,7 @@
     <MESSAGE value="correct bags and write test" />
     <MESSAGE value="add module common-jpa" />
     <MESSAGE value="add processing of text commands from the chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="add processing of text commands from the chat" />
+    <MESSAGE value="add token-methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add token-methods" />
   </component>
 </project>
