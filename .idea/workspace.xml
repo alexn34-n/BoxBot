@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add token-methods">
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/dao/AppPhotoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppPhoto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add app-photo">
+      <change afterPath="$PROJECT_DIR$/rest-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/RestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/AppDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/BinaryContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-jpa/src/main/java/ru/alexn/entity/BinaryContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2GMIP7uFxGk8Of52hzoQkjlGhEB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,7 +65,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alexn/Документы/BoxBot/node/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexn/Документы/BoxBot/rest-service/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,7 +73,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;09540b33f5a5f4eda229eec75aca91bd&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9aab95a97899ad65a0a6837b0b5e7fe7&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -76,6 +84,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rest-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/node/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -85,10 +94,10 @@
       <recent name="ru.alexn.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.alexn" />
       <recent name="ru.alexn.dao" />
       <recent name="ru.alexn.entity" />
       <recent name="ru.alexn.configuration" />
-      <recent name="ru.alexn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NodeApplication">
+  <component name="RunManager" selected="Spring Boot.RestService">
     <configuration name="DispatcherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="dispatcher" />
@@ -126,8 +135,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rest-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.alexn.RestService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.alexn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RestService" />
         <item itemvalue="Spring Boot.NodeApplication" />
         <item itemvalue="Spring Boot.DispatcherApplication" />
       </list>
@@ -163,7 +186,12 @@
       <workItem from="1669390128814" duration="134000" />
       <workItem from="1670256323114" duration="984000" />
       <workItem from="1670317972325" duration="217000" />
-      <workItem from="1670343400830" duration="1333000" />
+      <workItem from="1670343400830" duration="1437000" />
+      <workItem from="1670407076201" duration="29000" />
+      <workItem from="1670407381987" duration="52000" />
+      <workItem from="1670688041619" duration="1883000" />
+      <workItem from="1670755611591" duration="87000" />
+      <workItem from="1670770206597" duration="1831000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Init">
       <created>1666287461517</created>
@@ -228,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669216751438</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add app-photo">
+      <created>1670344776300</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670344776300</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +291,7 @@
     <MESSAGE value="add module common-jpa" />
     <MESSAGE value="add processing of text commands from the chat" />
     <MESSAGE value="add token-methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add token-methods" />
+    <MESSAGE value="add app-photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app-photo" />
   </component>
 </project>
