@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add rest-service">
-      <change afterPath="$PROJECT_DIR$/common-utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-utils/src/main/java/ru/alexn/utils/CryptoTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/configuration/NodeConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/enums/LinkType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/configuration/RestServiceConfiguration.java" afterDir="false" />
+    <list default="true" id="fbb39b70-5983-48df-97c3-141c7e5aaf0e" name="Changes" comment="add crypto-tool">
+      <change afterPath="$PROJECT_DIR$/mail-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail-service/src/main/java/ru/alexn/MailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail-service/src/main/java/ru/alexn/controller/MailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail-service/src/main/java/ru/alexn/dto/MailParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail-service/src/main/java/ru/alexn/service/MailSenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail-service/src/main/java/ru/alexn/service/impl/MailSenderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/alexn/service/impl/MainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-service/src/main/java/ru/alexn/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "9aab95a97899ad65a0a6837b0b5e7fe7",
+    "spring.configuration.checksum": "eeff9d6a75119c59645b953068a283ea",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -102,8 +97,8 @@
       <recent name="ru.alexn.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.alexn.configuration" />
       <recent name="ru.alexn" />
+      <recent name="ru.alexn.configuration" />
       <recent name="ru.alexn.dao" />
       <recent name="ru.alexn.entity" />
     </key>
@@ -115,11 +110,24 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestService">
+  <component name="RunManager" selected="Spring Boot.MailApplication">
     <configuration name="DispatcherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="dispatcher" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.alexn.DispatcherApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.alexn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mail-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.alexn.MailApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.alexn.*" />
@@ -158,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MailApplication" />
         <item itemvalue="Spring Boot.RestService" />
         <item itemvalue="Spring Boot.NodeApplication" />
         <item itemvalue="Spring Boot.DispatcherApplication" />
@@ -201,7 +210,10 @@
       <workItem from="1670755611591" duration="87000" />
       <workItem from="1670770206597" duration="1909000" />
       <workItem from="1670844332413" duration="47000" />
-      <workItem from="1671376699514" duration="4528000" />
+      <workItem from="1671376699514" duration="4610000" />
+      <workItem from="1671383086427" duration="625000" />
+      <workItem from="1671724822075" duration="1439000" />
+      <workItem from="1671728328106" duration="2930000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Init">
       <created>1666287461517</created>
@@ -280,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670772082745</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add crypto-tool">
+      <created>1671381284143</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671381284143</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +329,7 @@
     <MESSAGE value="add token-methods" />
     <MESSAGE value="add app-photo" />
     <MESSAGE value="add rest-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rest-service" />
+    <MESSAGE value="add crypto-tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="add crypto-tool" />
   </component>
 </project>
